@@ -16,7 +16,7 @@ Meteor.startup(() => {
 
          Employes.insert({
             name, email, phone,
-            avatar: image.avatar;
+            avatar: image.avatar();
          })
       });
    }
